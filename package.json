@@ -1,0 +1,22 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Weekly Mission 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CeViMu/Code_Challenge.git"
+  },
+  "author": "Cecilia Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CeViMu/Code_Challenge/issues"
+  },
+  "homepage": "https://github.com/CeViMu/Code_Challenge#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
