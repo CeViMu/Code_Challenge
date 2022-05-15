@@ -3,6 +3,7 @@ Weekly Mission 4
 
 # Dependencias usadas
 - Jest: Nos ayuda a escribir y ejecutar tests
+
 ¿Como instalarlo?
 
 1) Inicializamos npm
@@ -12,7 +13,7 @@ Weekly Mission 4
 > npm install --save -dev jest
 
 3) Modificamos el archivo package.json en la linea de "test" pues en windows 10 hay que cambiar la dirección para que pueda funcionar jest.
-![image] (https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen2.png)
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen2.png)
 
 Documentación de jest: https://jestjs.io/docs/api
 
@@ -32,7 +33,8 @@ Documentación de express: https://expressjs.com/es/
 
 2) Configuramos linter
 > npm init @eslint/config
-El archivo .en que se crea debe tener la siguiente onfiguración
+
+El archivo .en que se crea debe tener la siguiente configuración
 ```js
 module.exports = {
     "env": {
