@@ -1,7 +1,7 @@
-## Documentación del Code Challenge
+# Documentación del Code Challenge
 Weekly Mission 4
 
-# Dependencias usadas
+## Dependencias usadas
 - Jest: Nos ayuda a escribir y ejecutar tests
 
 ¿Como instalarlo?
@@ -13,9 +13,10 @@ Weekly Mission 4
 > npm install --save -dev jest
 
 3) Modificamos el archivo package.json en la linea de "test" pues en windows 10 hay que cambiar la dirección para que pueda funcionar jest.
-![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen2.png)
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen3.png)
 
 Documentación de jest: https://jestjs.io/docs/api
+
 
 - Express: Ayuda a crear un servidor para nuestra API
 ¿Cómo instalarlo?
@@ -55,7 +56,26 @@ module.exports = {
     }
 };
 ```
+3) Automatizamos los comandos de eslint en el package.json
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen4.png)
 
+## Agregando pruebas automatizadas
+1) Creamos un arhivo .github/workflows/test.yml y copiamos el siguiente contenido
+
+```
+name: Run Tests in my project every push on GitHub
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run Jest
+      uses: stefanoeb/jest-action@1.0.3
+```
+2) Hacemos commit de este archivo y lo agregamos al repositorio.
 
 
 
