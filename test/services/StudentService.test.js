@@ -8,7 +8,9 @@ describe("Unit test", () =>{
     });
 
     test("Test para mostrar los email de los estudiantes con certificación", ()=>{
-        const StudentsWithCertification = StudentService.StudentsWithCertification();
-        expect(StudentsWithCertification.length).toBe(29);
+        const students = [{name:"Warren", email: "Todd@visualpartnership.xyz", haveCertification: true},
+                          {name: "Phillips", email: "Camacho@visualpartnership.xyz", haveCertification: false}];
+        const StudentsWithCertification = StudentService.StudentsFilterByEmail(students);
+        expect(StudentsWithCertification.length).toBe(1);
     })
 })
