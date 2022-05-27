@@ -77,5 +77,34 @@ jobs:
 ```
 2) Hacemos commit de este archivo y lo agregamos al repositorio.
 
+## Instalando ESLinter
+1) Instalamos ESLinter
+> npm install eslint --save -dev
+
+2)Configuramos ESLinter
+> npm init @eslin/config
+
+3) Configuramos el arhivo .eslintrc.js que se creó, debe quedar de eta manera:
+```
+module.exports = {
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        indent: ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        quotes: ["error", "double"],
+        semi: ["error", "always"]
+    }
+};
+```
+DOcumentación:  https://eslint.org/docs/rules/ 
 
 
