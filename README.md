@@ -116,15 +116,15 @@ by @CarloGilmar
 ## FUNCIONAMIENTO DEL API
 Tenemos tres servicios
 
-1) Obtener los datos de todos los estudiantes \\
+1) Obtener los datos de todos los estudiantes  
 URL en donde se consulta: http://localhost:3000/v1/students/all 
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/students.png)
 
-2) Obtener los emails de los estudiantes con certificación
+2) Obtener los emails de los estudiantes con certificación  
 URL en donde se consulta: http://localhost:3000/v1/students/email
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/emails.png)
 
-3) Obtener la lista de estudiantes que tienen más de 500 créditos
+3) Obtener la lista de estudiantes que tienen más de 500 créditos  
 URL en donde se consulta: http://localhost:3000/v1/students/credits
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/credits.png)
 
