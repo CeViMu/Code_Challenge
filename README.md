@@ -1,7 +1,7 @@
 # Documentación del Code Challenge
 Weekly Mission 4
 
-## Dependencias usadas
+## DEPENDENCIAS USADAS
 - Jest: Nos ayuda a escribir y ejecutar tests
 
 ¿Como instalarlo?
@@ -59,7 +59,7 @@ module.exports = {
 3) Automatizamos los comandos de eslint en el package.json
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen4.png)
 
-## Agregando pruebas automatizadas
+## AGREGANDO PRUEBAS AUTOMATIZADAS
 1) Creamos un arhivo .github/workflows/test.yml y copiamos el siguiente contenido
 
 ```
@@ -105,6 +105,26 @@ module.exports = {
     }
 };
 ```
-DOcumentación:  https://eslint.org/docs/rules/ 
+Documentación:  https://eslint.org/docs/rules/ 
 
+
+## DISEÑO DE LOS COMPONENTES
+El diseño y las bases de este proyecto se encuentran el la siguiente imagen
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/semana6.png)
+by @CarloGilmar
+
+## FUNCIONAMIENTO DEL API
+Tenemos tres servicios
+
+1) Obtener los datos de todos los estudiantes
+URL en donde se consulta: http://localhost:3000/v1/students/all 
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/students.png)
+
+2) Obtener los emails de los estudiantes con certificación
+URL en donde se consulta: http://localhost:3000/v1/students/email
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/emails.png)
+
+3) Obtener la lista de estudiantes que tienen más de 500 créditos
+URL en donde se consulta: http://localhost:3000/v1/students/credits
+![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/credits.png)
 
