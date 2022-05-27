@@ -109,7 +109,7 @@ Documentación:  https://eslint.org/docs/rules/
 
 
 ## DISEÑO DE LOS COMPONENTES
-El diseño y las bases de este proyecto se encuentran el la siguiente imagen
+El diseño y las bases de este proyecto se encuentran en la siguiente imagen \\
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/semana6.png)
 by @CarloGilmar
 
