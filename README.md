@@ -109,14 +109,14 @@ Documentación:  https://eslint.org/docs/rules/
 
 
 ## DISEÑO DE LOS COMPONENTES
-El diseño y las bases de este proyecto se encuentran en la siguiente imagen \\
+El diseño y las bases de este proyecto se encuentran en la siguiente imagen 
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/semana6.png)
 by @CarloGilmar
 
 ## FUNCIONAMIENTO DEL API
 Tenemos tres servicios
 
-1) Obtener los datos de todos los estudiantes
+1) Obtener los datos de todos los estudiantes \\
 URL en donde se consulta: http://localhost:3000/v1/students/all 
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/students.png)
 
