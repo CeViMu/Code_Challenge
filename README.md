@@ -56,6 +56,8 @@ module.exports = {
     }
 };
 ```
+Documentación:  https://eslint.org/docs/rules/  
+
 3) Automatizamos los comandos de eslint en el package.json
 ![image](https://github.com/CeViMu/Code_Challenge/blob/main/images/Imagen4.png)
 
@@ -76,37 +78,6 @@ jobs:
       uses: stefanoeb/jest-action@1.0.3
 ```
 2) Hacemos commit de este archivo y lo agregamos al repositorio.
-
-## Instalando ESLinter
-1) Instalamos ESLinter
-> npm install eslint --save -dev
-
-2)Configuramos ESLinter
-> npm init @eslin/config
-
-3) Configuramos el arhivo .eslintrc.js que se creó, debe quedar de eta manera:
-```
-module.exports = {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true,
-        "jest": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": "latest"
-    },
-    "rules": {
-        indent: ["error", 4],
-        "linebreak-style": ["error", "unix"],
-        quotes: ["error", "double"],
-        semi: ["error", "always"]
-    }
-};
-```
-Documentación:  https://eslint.org/docs/rules/ 
-
 
 ## DISEÑO DE LOS COMPONENTES
 El diseño y las bases de este proyecto se encuentran en la siguiente imagen 
